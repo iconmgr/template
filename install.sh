@@ -49,7 +49,7 @@ scripts_check
 APPNAME="${APPNAME:-template}"
 APPDIR="$SHARE/CasjaysDev/iconmgr/$APPNAME"
 INSTDIR="$SHARE/CasjaysDev/iconmgr/$APPNAME"
-REPO_BRANCH="${GIT_REPO_BRANCH:-master}"
+REPO_BRANCH="${GIT_REPO_BRANCH:-main}"
 REPO="${ICONMGRREPO:-https://github.com/iconmgr}/$APPNAME"
 REPORAW="$REPO/raw/$REPO_BRANCH"
 APPVERSION="$(__appversion "$REPORAW/version.txt")"
